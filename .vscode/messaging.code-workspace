@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "path": "..",
+      "name": "ROOT"
+    },
+    {
+      "path": "../client",
+      "name": "Client"
+    },
+    {
+      "path": "../service",
+      "name": "Service"
+    },
+    {
+      "path": "../rabbit",
+      "name": "RabbitMQ"
+    }
+  ],
+  "settings": {
+    "java.autobuild.enabled": true,
+
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "jest.autoRun": "off",
+    "jest.disabledWorkspaceFolders": ["Client", "Service"],
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "postgres/": true,
+      "**/node_modules/": true
+    },
+    "cSpell.words": ["Jacoco", "JDBC", "mockito", "pgadmin", "postgres"],
+    "html.format.enable": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}
